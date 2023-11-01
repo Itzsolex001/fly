@@ -1,0 +1,111 @@
+body{
+    /* background-color: black; */
+}
+.nav-bar{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 15px;
+}
+.logo-sec{
+    display: flex;
+    gap: 10px;
+}
+.logo-text{
+    margin-top: 5px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;    
+}
+.menu li:hover{
+    color: purple;
+    cursor: pointer;
+    transition: 500ms;
+}
+.signin{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: aliceblue;
+    border-radius: 5px 10px;
+}
+.signup{
+    padding: 10px 15px;
+    background-color: rgb(170, 75, 170);
+    border: none;
+    color: aliceblue;
+    border-radius: 5px 10px;
+}
+.lunch-sec{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    height: 80vh;
+    background-color: black;
+}
+.lunch-texts{
+    margin-top: 50px;
+}
+.lunch-text2{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(163 153 207 );
+}
+.lunch-button{
+    border: none;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    padding: 10px 30px;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: 500;
+}
+.lunch-button:hover{
+    border: none;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    padding: 10px 30px;
+    padding-right: 50px;
+    transition: 300ms;
+    transition-property: all;
+}
+.fly{
+    border-radius: 40px;
+    padding: 15px 20px;
+    margin: 10px 15px;
+}
+.learn-more{
+    border: none;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    padding: 10px 30px;
+    color:aliceblue;
+    font-family: monospace;
+    font-weight: 500px;
+    background-color: blueviolet;
+}
+.learn-more:hover{
+    border: none;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    padding: 10px 30px;
+    padding-right: 50px;
+    transition: 300ms;
+    transition-property: all;
+}
+.phase-2{
+padding: 15px 10px;
+
+}
+.format{ display: flex;
+
+}
+.drive{
+    
+}
