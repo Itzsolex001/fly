@@ -106,6 +106,26 @@ padding: 15px 10px;
 .format{ display: flex;
 
 }
-.drive{
-    
+.t-boy{
+    padding-left: 120px;
+    margin-top: 65px;
+}
+.more{
+    color: aliceblue;
+    background-color:transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 500px;
+    font-family: monospace;
+    font-size: medium;
+}
+.more:hover{
+    border: none;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px 30px;
+    padding-right: 5px ;
+    transition: 300ms;
+    transition-property: all;
 }
